@@ -17,7 +17,8 @@ parserOptions:
 
 # Пользовательские правила линтера
 rules:
-  no-console: 0
-  import/extensions: off
-  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  no-console: 0  # Разрешаем использование console в коде
+  import/extensions: off  # Отключаем проверку расширений файлов при импортах
+  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]  # Разрешаем использование "_" в некоторых именах
+
 
