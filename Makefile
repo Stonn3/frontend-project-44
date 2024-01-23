@@ -19,9 +19,6 @@ brain-even:
 brain-calc:
 	node bin/brain-calc.js
 
-choose-game:
-	node src/index.js
-
 brain-gcd:
 	node bin/brain-gcd.js
 
